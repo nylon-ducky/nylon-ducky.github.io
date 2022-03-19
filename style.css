@@ -1,0 +1,829 @@
+
+* {
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.head {
+    padding: 10px;
+    height: 50px;
+    margin: 0;
+    background-color: rgba(180, 179, 179, 0.137);
+    border-bottom: 2px solid rgba(255, 68, 0, 0.5);
+}
+
+#logoLink {
+    width: min-content;
+    height: min-content;
+}
+
+#logo {
+    width: 150px;
+    position: relative;
+    top: -32.5px;
+}
+
+nav {
+    width: 100%;
+    height: min-content;
+    text-align: right;
+    margin-top: 12px;
+    margin: inherit auto;
+}
+
+nav a {
+    color: black;
+    margin: 20px 7px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .navLast {
+        margin-right: 20%;
+    }    
+}
+
+@media screen and (min-width: 1400px) {
+    .navLast {
+        margin-right: 25%;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+
+    .blur, .sightsImg {
+        width: 60%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+}
+
+#contact {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFEE;
+}
+
+#phone {
+    position: relative;
+    top: 15px;
+    margin:0;
+    text-decoration: none;
+    color: black;
+}
+
+#book {
+    position: relative;
+    background-color: #42A4CE;
+    border-radius: 10px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    
+    top: 16px;
+    margin: auto 10%;
+}
+
+#email {
+    position: relative;
+    top: 15px;
+    margin:0;
+    text-decoration: none;
+    color: black;
+}
+
+#contactLinks {
+    width: 760px;
+    margin: auto;
+}
+
+#history {
+    margin-bottom: -5px;
+    margin-top: 4px;
+}
+
+#boat {
+    background-image: url("Assets/beachSunsetBoat.jpg");
+    margin-top: -35px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 806px;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#first {
+    
+    height: 100px;
+    text-align: center;
+    
+    padding: 20px;
+    font-size: 50px;
+}
+
+#first small {
+    font-size: large;
+    position: relative;
+    top: -15px;
+}
+
+#second {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -13.5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px 125px;
+}
+
+#mountain {
+    background-image: url("Assets/mountainVolcano.jpg");
+    margin-top: -30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1500px;
+}
+
+#mountain::after {
+    content: "Photos by: Jimmy Conover and Karsten Winegeart on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#third {
+    position: absolute;
+    margin-top: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px 125px;
+    
+}
+
+#fourth {
+    position: absolute;
+    bottom: -1300px;
+    text-align: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+#activities {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #42A4CE;
+    padding: 20px 40px;
+    
+}
+
+
+
+/*
+        lodging page
+*/
+
+
+#hotelRoom {
+    background-image: url("Assets/hotelRoom.jpg");
+    margin-top: -30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+}
+
+#sunsetBeach::after {
+    content: "Photos by: Marvin Meyer, Jörg Angeli, SJ ., Ibrahim Mushan, and Nicate Lee on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#sunsetBeach img {
+    width: 79%;
+    margin: 10% 10% 0 10%;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.lodgingHead {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    
+}
+
+#lodgingInfo {
+    padding: 50px 150px;
+    font-size: 25px;
+    margin-top: 562.5px;
+}
+
+
+
+#sunsetBeach {
+    background-image: url("Assets/sunsetBeach.jpg");
+    margin-top: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 4000px;
+}
+
+#hotel1 {
+    position: relative;
+    top: 500px;
+}
+
+#hotel1Img {
+    width: 100%;
+    margin: 0;
+}
+
+.hotelInfo {
+    
+    margin-right: 15%;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+
+
+.hotelInfo a {
+    color: white;
+
+    text-align: center;
+
+    background-color: #42A4CE;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    line-height: 85px;
+}
+
+
+#hotel2 {
+    margin-top: 700px;
+    text-align: center;
+
+}
+
+#hotel2 * {
+    list-style-type: none;
+}
+
+#hotel2Img {
+    width: 100%;
+    
+}
+
+#hostelImg {
+    width: 100%;
+}
+
+
+#hostel {
+    margin-top: 300px;
+}
+
+#bottom {
+    text-align: center;
+    position: relative;
+    margin-top: 335px; 
+    margin-bottom: -30px;
+    padding: 30px;
+}
+
+
+#thumb {
+    display: block;
+    width:250px;
+    margin: auto;
+}
+
+#success {
+    text-align: center;
+}
+
+/*
+        Transportation
+*/
+
+#transportationBackground {
+
+    background-image: url("Assets/beachRoad.jpg");
+    margin-top: -12px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1500px;
+
+}
+
+#transportationBackground::after {
+    content: "Photos by: Scott Taylor on Unsplash, as well as Emslichter, and Sabrina Belle on Pixabay";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+.cards {
+    width: max-content;
+    height: min-content;
+    margin: auto;
+    font-weight: bold;
+}
+
+.card {
+    width: 200px;
+    height: 350px;
+    margin: 20px 50px;
+    margin-top: 100px;
+    padding: 0 10px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(44, 44, 44);
+    border: 3px solid #42A4CE;
+    border-radius: 10px;
+}
+
+.cardTitle {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.card dl {
+    width: max-content;
+    margin: auto;
+}
+
+.card dt, .card dd {
+    width: max-content;
+    margin: auto;
+}
+
+.card dd {
+    margin-bottom: 15px;
+}
+
+#shuttle, #taxi {
+    text-align: center;
+}
+
+#cars {
+    position: absolute;
+    margin-top: 700px;
+    width: 100%;
+}
+
+.car {
+    height: 200px;
+    border-bottom: 5px solid rgba(27, 27, 27, 0.5);
+    padding-bottom: 25px;
+    width: 60%;
+    margin: 0 20%;
+}
+
+.car button:hover {
+    cursor: pointer;
+}
+
+#sedan, #suv {
+    height: 200px;
+}
+
+.car ul {
+    list-style-type: none;
+    float: right;
+    width: max-content;
+    margin: 20px 200px auto auto;
+}
+
+.reserve {
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #42A4CE;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#bike {
+    width: 450px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#bikeHolder {
+    margin-top: -53px;
+}
+
+#bikeTitle {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*
+
+        Flavors Page
+
+*/
+
+
+#fishMarket {
+    background-image: url("Assets/springRolls.jpg");
+    margin-top: -12px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 3000px;
+}
+
+#fishMarket::after {
+    content: "Photos by: Emily Webster, Caroline Attwood, Tyson, Ella Olsson, and Raul Gonzalez Escobar on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+
+#fishMarket .blur {
+    width: 60%;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#fishH {
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 15px;
+}
+
+#fishP {
+    width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+#localFish {
+    height: 230px;
+    margin-top: 400px;
+}
+
+#localFishImg, #nuggets, #springRolls, #marketImg {
+    height: 200px;
+    margin: 15px 0 15px 15px;
+    border-radius: 5px;
+}
+
+#localFishP {
+    margin-top: 60px;
+}
+
+.localResturants {
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+}
+
+
+#american {
+    margin-top: 400px;
+}
+
+#americanP {
+    width: 400px;
+    float: right;
+    margin-top: 65px;
+    margin-right: 125px;
+}
+
+#panAsian {
+    margin-top: 400px;
+}
+
+#panAsianP {
+    float: right;
+    width: 400px;
+    margin-top: 70px;
+    margin-right: 125px;
+}
+
+#market {
+    margin-top: 400px;
+}
+
+#marketP {
+    float: right;
+    width: 400px;
+    margin-top: 5px;
+    margin-right: 130px;
+}
+
+
+/*
+        Entertainment Page
+*/
+
+
+#entertainment {
+    margin-top: -13px;
+    background-image: url("Assets/bowling.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 3800px;
+    
+}
+
+#entertainment img {
+    border: 2px solid whitesmoke;
+    padding: 0;
+}
+
+#entertainment::after {
+    content: "Photos by: Persnickety Prints, Carl Raw, Steven Cordes, Artem B, Myke Simon, and Amie Johnson on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#entertainment .blur {
+    width: 60%;
+    padding: 20px 20%;
+}
+
+#entertainmentHead {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+#arcade {
+    position: absolute;
+    margin-top: 400px;
+    width: 100%;
+    height: 220px
+}
+
+#skiBall, #bowlingAlleyImg, #danceClub, #cinema, #pub {
+    height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+#skiBallP {
+    float: right;
+    width: 400px;
+    margin-right: 110px;
+    margin-top: 50px;
+}
+
+#bowlingAlley {
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1120px;
+
+}
+
+#bowlingAlleyP {
+    float: right;
+    width: 400px;
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+
+#club, #movies, #pubs {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    margin-top: 1835px;
+}
+
+#clubP, #moviesP, #pubsP {
+    float: right;
+    width: 400px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+#movies {
+    margin-top: 2550px;
+}
+
+#moviesP {
+    margin-top: 65px;
+}
+
+#pubs {
+    margin-top: 3270px;
+}
+
+#pubsP {
+    margin-right: 120px;
+    margin-top: 75px;
+}
+
+
+/*
+        Sights Page
+*/
+
+
+#sightsPage {
+
+    margin-top: -42px;
+    background-image: url("Assets/rainforest.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 3700px;
+
+}
+
+#sightsPage::after {
+    content: "Photos by: Jakob Owens, Jeremy Boley, roberto zuniga, Vidar Nordli-Mathisen, Subtle Cinematics, and Aaron Burden on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#sightsPage img {
+    width: 59%;
+    margin: 10% 20% 0 20%;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+
+#sightsHead {
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.sightsImg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sightsP {  
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+#helicopterRides {
+    margin-top: 400px;
+}
+
+#jungle, #volcano, #fishingTour, #snorkeling, #beach {
+    margin-top: 400px;
+}
+
+/*
+
+        FAQ page
+
+*/
+
+#faq {
+    margin-top: -13px;
+    background-image: url("Assets/drink.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 2500px;
+}
+
+#faq::after {
+    content: "Photo by Ibrahim Razzan on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+}
+
+#faqHead {
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+#faq dl {
+    position: absolute;
+    width: 60%;
+    margin: 0 20%;
+}
+
+#faq dd, #faq dt{
+    width: 300px;
+    height: 80px;
+    background-color:rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    line-height: 30px;
+
+    margin-top: 100px;
+}
+
+#faq dl dd {
+
+    float: right;
+    margin-top: -140px;
+
+}
+
+#faq dt::before {
+    content: "Q";
+    padding: 5px;
+    margin:0 5px 5px 0;
+    background-color: rgb(212, 45, 45);
+    color: white;
+    font-weight: bold;
+}
+
+
+#faq dd::before {
+    content: "A";
+    padding: 5px;
+    margin:0 5px 5px 0;
+    background-color: rgb(33, 173, 33);
+    color: white;
+    font-weight: bold;
+}
+
+
+#faq .xl, #faq .xldd {
+    height: 130px;
+}
+
+#faq .xldd {
+    margin-top: -190px;
+}
+
+#faq #lastDT, #faq #lastDD {
+    height: 175px;
+}
+
+#faq #lastDD {
+    margin-top: -235px;
+}
+

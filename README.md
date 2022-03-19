@@ -1,2 +1,2 @@
-# nylon-ducky.github.io
-Taniti Website Prototype
+# islandPrototype
+Interactive Prototype for Taniti Island Project as part of WGU's UX design course
